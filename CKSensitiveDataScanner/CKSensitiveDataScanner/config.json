@@ -1,0 +1,80 @@
+﻿{
+  "OllamaEndpoint": "http://192.168.10.12:11434/api/generate",
+  "OllamaModel": "gpt-oss:20b",
+
+  "OpenAIApiKey": "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "OpenAIModel": "gpt-4o-2024-11-20",
+
+  "GeminiApiKey": "AIzaSyXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "GeminiModel": "gemini-1.5-pro-latest",
+
+  "AnthropicApiKey": "sk-ant-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "AnthropicModel": "claude-3-5-sonnet-20241022",
+
+  "GrokApiKey": "grok_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "GrokModel": "grok-3",
+
+  "TruncationThreshold": 20000,
+
+  "Solutions": [
+    {
+      "Id": 1,
+      "Path": "C:\\m2trust\\m2trust.BCL\\src"
+    },
+    {
+      "Id": 2,
+      "Path": "C:\\m2trust\\m2trust.ClientAPI\\src"
+    },
+    {
+      "Id": 3,
+      "Path": "C:\\m2trust\\m2trust.Core\\src"
+    },
+    {
+      "Id": 4,
+      "Path": "C:\\m2trust\\m2trust.Enrollment\\src"
+    },
+    {
+      "Id": 5,
+      "Path": "C:\\m2trust\\m2trust.Infrastructure\\src"
+    },
+    {
+      "Id": 6,
+      "Path": "C:\\m2trust\\m2trust.Subsystem.DCP\\src"
+    },
+    {
+      "Id": 7,
+      "Path": "C:\\m2trust\\m2trust.Subsystem.DeviceManagement\\src"
+    },
+    {
+      "Id": 8,
+      "Path": "C:\\m2trust\\m2trust.Subsystem.PKI\\src"
+    },
+    {
+      "Id": 9,
+      "Path": "C:\\m2trust\\m2trust.UserPortal\\src"
+    }
+  ],
+
+  "RelevantExtensions": [
+    ".cs",
+    ".csproj",
+    ".config",
+    ".json",
+    ".xml",
+    ".settings",
+    ".props",
+    ".targets",
+    ".txt",
+    ".cshtml",
+    ".razor"
+  ],
+
+  "ExcludeFolders": [
+    "bin",
+    "obj",
+    ".git",
+    ".vs",
+    "node_modules",
+    "packages"
+  ]
+}
