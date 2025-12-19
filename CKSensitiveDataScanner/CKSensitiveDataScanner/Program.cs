@@ -4,7 +4,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
 using System.Web;
-namespace SensitiveDataScanner
+
+namespace CKSensitiveDataScanner
 {
     class Program
     {
